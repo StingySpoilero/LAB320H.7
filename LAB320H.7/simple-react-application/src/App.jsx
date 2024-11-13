@@ -3,7 +3,7 @@ import MovieDisplay from "./components/MovieDisplay";
 import Form from "./components/Form";
 
 export default function App() {
-  const apiKey = "98e3fb1f"; // Replace with your API key
+  const apiKey = "f8419995"; // Replace with your API key
   const [movie, setMovie] = useState(null);
 
   const getMovie = async (searchTerm) => {
